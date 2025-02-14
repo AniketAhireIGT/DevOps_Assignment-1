@@ -19,6 +19,6 @@ jobs:
         USER: ${{ secrets.USER }}
         PASS: ${{ secrets.PASS }}   
       run: |        
-        docker build . --file dockerfile.dockerfile --tag aniketahire/devops-Assignment_1:v1
+        docker build . --file dockerfile.dockerfile --tag aniketahire/devops-assignment_1:v1
         docker login -u $USER -p $PASS        
-        docker push aniketahire/devops-Assignment_1:v1
+        docker push aniketahire/devops-assignment_1:v1
